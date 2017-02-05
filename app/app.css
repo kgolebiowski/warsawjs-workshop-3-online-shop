@@ -1,0 +1,45 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.gray-box {
+  margin: 10px;
+  padding: 10px 10px;
+  background-color: #e8e8e8;
+  border: 1px #000000;
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+}
+
+.product-item {
+  width: 220px;
+  height: 280px;
+  float: left;
+}
+
+.add-to-cart-button {
+  width: 100%;
+}

@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    angular.module('shop', [])
+    angular.module('shop')
         .component('shopMainComponent', new ShopMainComponent())
         .component('productsList', new ProductsList())
         .component("productDisplayForm", new ProductDisplayForm())

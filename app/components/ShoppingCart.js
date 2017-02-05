@@ -3,10 +3,10 @@ class ShoppingCart {
         this.template = `<div class="gray-box">
                             <h1>Koszyk!</h1>
                             <ul>
-                                <div ng-repeat="product in $ctrl.products.list">
-                                    <span>{{ product.name }}</span>
+                                <li ng-repeat="product in $ctrl.products.list">
                                     <button type="button" class="btn btn-danger btn-xs" ng-click="$ctrl.deleteProduct(product.id)">X</button>
-                                </div>
+                                    <span>{{ product.name }}</span>
+                                </li>
                             </ul>
                        </div>`;
         this.controller = function (cartService) {

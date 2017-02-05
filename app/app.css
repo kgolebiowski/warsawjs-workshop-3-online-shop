@@ -36,10 +36,19 @@
 
 .product-item {
   width: 220px;
-  height: 280px;
+  height: 320px;
   float: left;
 }
 
 .add-to-cart-button {
   width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding-top: 10px;
 }
